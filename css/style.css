@@ -98,7 +98,7 @@ footer {
 
 .section-subheading {
   color: var(--light-blue);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .section-content-container {
@@ -260,6 +260,7 @@ header {
 
 .extra-feature {
   margin-top: 2rem;
+  height: auto;
 }
 
 /* Cta section */
@@ -277,7 +278,6 @@ header {
 
 .cta-subtitle {
   display: block;
-  font-size: 1.2rem;
   margin-bottom: 3rem;
   color: var(--brown);
 }
@@ -487,11 +487,14 @@ footer {
   }
 
   .extra-feature {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+  }
 
+  .extra-feature > * {
+    max-width: 50%;
+    margin-inline: 0.5rem;
   }
 
   .extra-features .order-one {
