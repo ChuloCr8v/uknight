@@ -261,7 +261,7 @@ header {
 
 .extra-feature {
   margin-top: 2rem;
-  height: auto;
+  max-height: 20rem;
 }
 
 /* Cta section */
@@ -558,7 +558,7 @@ footer {
   }
 
   /* testimonial section */
-  
+
   #testimonials .split {
     flex-wrap: wrap;
   }
