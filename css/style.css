@@ -527,12 +527,6 @@ footer {
     order: 2;
   }
 
-  /* about section */
-  .about-content {
-    font-size: 1.1rem;
-    max-width: 100%;
-  }
-
   /* Cta section */
 
   .cta-img {
