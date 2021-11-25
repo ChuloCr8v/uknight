@@ -463,7 +463,8 @@ footer {
   }
 
   .split > * {
-    flex-basis: 100%;
+    max-width: 50%;
+    margin-inline: 0.5rem;
   }
 
   .order-one {
@@ -524,6 +525,12 @@ footer {
 
   .extra-features .order-two {
     order: 2;
+  }
+
+  /* about section */
+  .about-content {
+    font-size: 1.1rem;
+    max-width: 100%;
   }
 
   /* Cta section */
