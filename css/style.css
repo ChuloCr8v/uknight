@@ -70,7 +70,7 @@ body {
 
 .container,
 footer {
-  width: min(90%, 90rem);
+  width: min(90%, 70rem);
 }
 
 /* Section */
